@@ -1,3 +1,3 @@
 # wop-starters
 
-Choose a branch and download as zip.
+Websovelluskehityksen perusteet, viikko 2 harjoitukset

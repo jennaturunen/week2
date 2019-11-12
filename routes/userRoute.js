@@ -1,8 +1,6 @@
 'use strict';
 // userRoute
 
-// Router
-'use strict';
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
@@ -21,10 +19,7 @@ router.get('/:id', (req, res) => {
 });
 
 
-router.post('/', (req, res) => {
-  console.log('user post body', req.body);
-  res.send('With this endpoint you user add users.');
-});
+router.post('/', userController.user_create_post);
 
 router.put('/', (req, res) => {
   res.send('With this endpoint you can edit users.');
