@@ -12,7 +12,7 @@ router.get('/:id', catController.cat_get);
 
 router.post('/', upload.single('cat'), (req, res, next) => {
   console.log('cat post file', req.file);
-  //tiedostonnimi bodyyn, jos haluaa
+  //tiedostonnimi bodyyn, jos haluaa ei pakollinen
   req.body.filename = req.file.filename;
   next();
 });

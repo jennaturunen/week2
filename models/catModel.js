@@ -4,7 +4,11 @@ const promisePool = pool.promise();
 
 const getAllCats = async () => {
   try {
-    const [rows] = await promisePool.query('SELECT * FROM wop_cat');
+    const [rows] = await promisePool.execute(
+        'SELECT wop_cat.*, wop_user.name as "ownername" ' +
+        'FROM wop_cat JOIN wop_user ON wop_user.user_id = wop_cat.owner ' +
+        'ORDER BY wop_cat.cat_id;');
+    //const [rows] = await promisePool.query('SELECT * FROM wop_cat');
     return rows;
   } catch (e) {
     console.log('error', e.message);
@@ -36,7 +40,7 @@ const updateCat = async (params) => {
   console.log(params);
   try {
     const [rows] = await promisePool.execute(
-        'UPDATE wop_cat SET name = ?, age = ?, weight = ?, owner = ? cat_id = ?;', params);
+        'UPDATE wop_cat SET name = ?, age = ?, weight = ?, owner = ? WHERE cat_id = ?;', params); //tai wop_cat.cat_id
     return rows;
   } catch (e) {
     console.log('error', e.message);

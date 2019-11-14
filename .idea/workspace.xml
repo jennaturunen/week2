@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c268ee-f202-4489-9c1a-0d5a68d55541" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/catController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/catController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/catModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/catModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/catRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/catRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2_public_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2_public_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/e7245cf335fa91df3325b0567632114c" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +80,10 @@
       <workItem from="1573193680000" duration="25369000" />
       <workItem from="1573296533462" duration="4000" />
       <workItem from="1573465503187" duration="1225000" />
-      <workItem from="1573549657286" duration="808000" />
+      <workItem from="1573549657286" duration="2149000" />
+      <workItem from="1573572987251" duration="64000" />
+      <workItem from="1573636705647" duration="81000" />
+      <workItem from="1573711163943" duration="5000000" />
     </task>
     <servers />
   </component>

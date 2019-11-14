@@ -19,8 +19,9 @@ const cat_create_post = async (req, res) => {
     req.body.age,
     req.body.weight,
     req.body.owner,
-    req.body.filename,
+    req.body.filename,  //tai req.file.filename
   ];
+  console.log('create',params);
   const result = await catModel.addCat(params);
   await res.json(result);
 };
@@ -32,14 +33,15 @@ const cat_update_put = async (req, res) => {
     req.body.age,
     req.body.weight,
     req.body.owner,
-    req.params.id,
+    req.body.id,
   ];
   const result = await catModel.updateCat(params);
   await res.json(result);
 };
 
 const cat_delete = async (req, res) => {
-  const result = await catModel.deleteCat(req.params.id);
+  const params = [req.params.id];
+  const result = await catModel.deleteCat(params);
   await res.json(result);
 };
 
