@@ -1,5 +1,6 @@
 // userController
 'use strict';
+const {validationResult} = require('express-validator');
 const userModel = require('../models/userModel');
 
 const user_list_get = async (req, res) => {
@@ -13,13 +14,21 @@ const user_get = async (req, res) => {
 };
 
 const user_create_post = async (req, res) => {
-  const params = [
+  // Extract the validation errors from a request
+  const errors = validationResult(req);
+
+  if (!errors.isEmpty()) {
+    console.log(errors);
+    res.send(errors.array());
+  } else {
+    const params = [
       req.body.name,
       req.body.email,
       req.body.passwd,
-  ];
-  const result = await userModel.addUser(params);
-  await res.json(result);
+    ];
+    const result = await userModel.addUser(params);
+    await res.json(result);
+  }
 };
 
 /* mitkä funktiot näkyvät ulospäin */
