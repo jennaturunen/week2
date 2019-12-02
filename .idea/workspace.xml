@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c268ee-f202-4489-9c1a-0d5a68d55541" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/catController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/catController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/catModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/catModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/catRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/catRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/userRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/userRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/3bae6dac78438dcdf6af0a6ece2bb25e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/550a2d38d7e38da778f94f3e5a7d9ddb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/8425f4116c7dad8dfbf38f3465feb416" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/pass.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/pass.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webprojekti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wskp-viikko1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,7 +96,11 @@
       <workItem from="1573711163943" duration="16807000" />
       <workItem from="1574330383565" duration="6948000" />
       <workItem from="1574846090170" duration="2681000" />
-      <workItem from="1574932336836" duration="850000" />
+      <workItem from="1574932336836" duration="17424000" />
+      <workItem from="1575048365791" duration="8932000" />
+      <workItem from="1575113543933" duration="1382000" />
+      <workItem from="1575125859836" duration="3458000" />
+      <workItem from="1575269932067" duration="20804000" />
     </task>
     <servers />
   </component>

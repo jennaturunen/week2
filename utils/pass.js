@@ -1,4 +1,5 @@
 'use strict';
+const bcrypt = require('bcryptjs');
 const passport = require('passport');
 const Strategy = require('passport-local').Strategy;
 const passportJWT = require('passport-jwt');
@@ -16,9 +17,11 @@ passport.use(new Strategy(
         if (user === undefined) {
           return done(null, false, {message: 'Incorrect email.'});
         }
-        if (user.password !== password) {
+        // TODO: use bcrypt to check of passwords don't match
+        if (!bcrypt.compareSync(password, user.password)) {
           return done(null, false, {message: 'Incorrect password.'});
         }
+        delete user.password;   // delete user poistaisi koko objektin > nyt poistetaan vain salasana kulkemasta mukana
         return done(null, {...user}, {message: 'Logged In Successfully'}); // use spread syntax to create shallow copy to get rid of binary row type > tavallinen objekti
       } catch (err) {
         return done(err);

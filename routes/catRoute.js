@@ -18,7 +18,7 @@ router.post('/', upload.single('cat'), (req, res, next) => {
     res.json({
       error: 'No file',
     });
-  } else if (!req.file.mimeType.includes('image')){
+  } else if (!req.file.mimetype.includes('image')){
     res.json({
       error: 'Not an image',
     });
